@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        let theQuestion = "I would like to learn more about Javascript. Do you have any ideas?";
+        alert(theQuestion.substr(16,29));
+
+        //another method could be
+
+        document.write(theQuestion.indexOf("Javascript"));
+
+        //both of these methods find the key word or words in the search. the first method selects the values of the key words in the question. The second method finds the index of the key word in the question. 
+           
+
+   </script>
+    
+</body>
+</html>

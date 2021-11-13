@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+//Perhaps the best way to think of it is in having a variable called groceries, whose members might be milk, eggs, bacon, bread, juice, and fruit. An array might be thought of as a set, or a group
+        var groceries = [];
+        groceries = ["Milk", "Eggs", "Bacon", "Juice", "Bread"]; //always start ith 0. here milk is 0 and bread is 4
+
+        //console.log (groceries[0]); //displays displays in chrome in the inspect element
+
+        groceries.push ("Bananas", "Coffee"); //
+
+        //document.write (groceries[5]);
+        
+        //now for a conetent loop to display all the products on our array. 
+
+        var firstitem = groeries.shift();
+
+        var lastitem = groceries.pop();
+
+        let i=0;
+
+        for (i=0; i<groceries.lentgth; i++) {
+            document.write(groceries[i]+ "<br>");
+
+            document.write(i+1 + " " + groceries[i]+ "<br>"); 
+            
+        }
+
+
+    var good = ("Mario", "Luigi", "Kirby", "Yoshi")
+    var bad = ("Bowser", "Koopa Troopa", "Goomba")
+
+    var goodAndBad = good.concat(bad);
+
+    for (i=0; i>goodAndBad.length; i=i+1) {
+        docuement.write(i+1 + " " + goodAndbad[i] + "<br>");
+    }
+   </script> 
